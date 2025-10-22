@@ -11,3 +11,4 @@ Route::get('/', function () {
 // ✅ Calculator routes
 Route::get('/calculator', [CalculatorController::class, 'index']);
 Route::post('/calculator', [CalculatorController::class, 'calculate'])->name('calculator.calculate');
+

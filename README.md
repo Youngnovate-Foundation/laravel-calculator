@@ -11,6 +11,12 @@
 
 A simple yet functional calculator web application built with Laravel, designed as Assignment 1 for learning the fundamentals of functions in PHP and Laravel routing, controllers, and Blade templates.
 
+**Author:** Boateng Mavis Akua  
+**Course:** PHP & Laravel – Assignment 2  
+**Institution:** University of Mines and Technology (UMaT)  
+**Date:** October 2025 
+
+
 🚀 Overview
 
 This project demonstrates how to use Laravel’s MVC structure to create a dynamic calculator that performs basic and extended arithmetic operations.
@@ -78,15 +84,8 @@ php artisan serve
 
 
 Then open http://127.0.0.1:8000/calculator
- in your browser.
-
-
-**Author:** Boateng Mavis Akua  
-**Course:** PHP & Laravel – Assignment 2  
-**Institution:** University of Mines and Technology (UMaT)  
-**Date:** October 2025  
+ in your browser. 
 
 🪪 License
 
-This project is open-source under the MIT License
-.
+This project is open-source under the MIT License.

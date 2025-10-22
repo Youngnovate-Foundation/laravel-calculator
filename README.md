@@ -7,55 +7,86 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+🧮 Laravel Functional Calculator
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+A simple yet functional calculator web application built with Laravel, designed as Assignment 1 for learning the fundamentals of functions in PHP and Laravel routing, controllers, and Blade templates.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+🚀 Overview
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+This project demonstrates how to use Laravel’s MVC structure to create a dynamic calculator that performs basic and extended arithmetic operations.
+It focuses on functions, form handling, and server-side logic within Laravel.
 
-## Learning Laravel
+⚙️ Features
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Addition ➕
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Subtraction ➖
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Multiplication ✖️
 
-## Laravel Sponsors
+Division ➗ (with divide-by-zero check)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Modulus (%)
 
-### Premium Partners
+Power (^)
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+Square Root (√)
 
-## Contributing
+🧩 How It Works
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+User inputs two numbers (or one for square root).
 
-## Code of Conduct
+Selects an operation.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Laravel controller handles the logic using PHP functions.
 
-## Security Vulnerabilities
+Result is displayed dynamically on the same page.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+📂 Project Structure
+app/
+ └── Http/
+     └── Controllers/
+         └── CalculatorController.php
+resources/
+ └── views/
+     └── calculator.blade.php
+routes/
+ └── web.php
 
-## License
+🧰 Tech Stack
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Framework: Laravel 12
+
+Language: PHP 8
+
+Frontend: Blade Templates + Bootstrap
+
+Server: PHP Development Server (php artisan serve)
+
+🧪 How to Run Locally
+# Clone the repository
+git clone https://github.com/Youngnovate-Foundation/laravel-calculator.git
+
+# Move into the project directory
+cd laravel-calculator
+
+# Install dependencies
+composer install
+
+# Run the application
+php artisan serve
+
+
+Then open http://127.0.0.1:8000/calculator
+ in your browser.
+
+
+**Author:** Boateng Mavis Akua  
+**Course:** PHP & Laravel – Assignment 2  
+**Institution:** University of Mines and Technology (UMaT)  
+**Date:** October 2025  
+
+🪪 License
+
+This project is open-source under the MIT License
+.
